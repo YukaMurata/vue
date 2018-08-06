@@ -2,9 +2,6 @@
   "matches": [
     {
       "date": "20180714",
-      "startDay": "20180713",
-      "startTime": "00:00",
-      "result": "20180715",
       "matches": [
         {
           "teamA": "1-1-A",
@@ -16,9 +13,6 @@
     },
     {
       "date": "20180715",
-      "startDay": "20180714",
-      "startTime": "00:00",
-      "result": "20180716",
       "matches": [
         {
           "teamA": "2-1-A",
@@ -42,9 +36,6 @@
     },
     {
       "date": "20180716",
-      "startDay": "20180715",
-      "startTime": "00:00",
-      "result": "20180717",
       "matches": [
         {
           "teamA": "3-1-A",
@@ -73,10 +64,7 @@
       ]
     },
     {
-      "date": "20180817",
-      "startDay": "20180716",
-      "startTime": "00:00",
-      "result": "20180718",
+      "date": "20180917",
       "matches": [
         {
           "teamA": "4-1-A",
