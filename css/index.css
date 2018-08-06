@@ -1,0 +1,36 @@
+body {
+  padding: 30px;
+}
+
+.match__title {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.match__list__item__days {
+  margin-right: 10px;
+}
+.match__list__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.match__info__time {
+  margin-right: 10px;
+}
+.match__info__box {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.match__info__link {
+  border: 1px solid #000000;
+  padding: 5px;
+  margin-left: 20px;
+  width: 92px;
+  height: 31px;
+  box-sizing: border-box;
+}
+.match__info__link a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}

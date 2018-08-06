@@ -1,0 +1,102 @@
+{
+  "matches": [
+    {
+      "date": "20180714",
+      "startDay": "20180713",
+      "startTime": "00:00",
+      "result": "20180715",
+      "matches": [
+        {
+          "teamA": "1-1-A",
+          "teamB": "1-1-B",
+          "time": "12:00",
+          "limit": "23:50"
+        }
+      ]
+    },
+    {
+      "date": "20180715",
+      "startDay": "20180714",
+      "startTime": "00:00",
+      "result": "20180716",
+      "matches": [
+        {
+          "teamA": "2-1-A",
+          "teamB": "2-1-B",
+          "time": "11:00",
+          "limit": "20:50"
+        },
+        {
+          "teamA": "2-2-A",
+          "teamB": "2-2-B",
+          "time": "13:00",
+          "limit": "23:50"
+        },
+        {
+          "teamA": "2-3-A",
+          "teamB": "2-3-B",
+          "time": "15:00",
+          "limit": "26:50"
+        }
+      ]
+    },
+    {
+      "date": "20180716",
+      "startDay": "20180715",
+      "startTime": "00:00",
+      "result": "20180717",
+      "matches": [
+        {
+          "teamA": "3-1-A",
+          "teamB": "3-1-B",
+          "time": "10:00",
+          "limit": "18:50"
+        },
+        {
+          "teamA": "3-2-A",
+          "teamB": "3-2-B",
+          "time": "12:00",
+          "limit": "21:50"
+        },
+        {
+          "teamA": "3-3-A",
+          "teamB": "3-3-B",
+          "time": "14:00",
+          "limit": "24:50"
+        },
+        {
+          "teamA": "3-4-A",
+          "teamB": "3-4-B",
+          "time": "16:00",
+          "limit": "27:50"
+        }
+      ]
+    },
+    {
+      "date": "20180817",
+      "startDay": "20180716",
+      "startTime": "00:00",
+      "result": "20180718",
+      "matches": [
+        {
+          "teamA": "4-1-A",
+          "teamB": "4-1-B",
+          "time": "21:00",
+          "limit": "20:50"
+        },
+        {
+          "teamA": "4-2-A",
+          "teamB": "4-2-B",
+          "time": "24:00",
+          "limit": "23:50"
+        },
+        {
+          "teamA": "4-3-A",
+          "teamB": "4-3-B",
+          "time": "27:00",
+          "limit": "26:50"
+        }
+      ]
+    }
+  ]
+}

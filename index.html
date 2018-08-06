@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>vue</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="match">
+        <h1 class="match__title">試合日程</h1>
+
+        <ul class="match__list" id="list">
+            <li class="match__list__item" v-for="(item,index) in search_list.matches">
+                <div class="match__list__item__days" ref="days">{{item.date}}</div>
+                <div class="match__info">
+                    <div class="match__info__box" v-for="match in item.matches">
+                        <p class="match__info__time">{{match.time}}</p>
+                        <div class="match__info__box__match">
+                            <p>{{match.teamA}}
+                                <span class="match__vs">vs</span>
+                                {{match.teamB}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="match__info__link" v-show="show[index]">
+                    <a href="#">詳細をみる</a>
+                </p>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="js/vendor.bundle.js"></script>
+    <script src="js/index.bundle.js"></script>
+
+</body>
+
+</html>
