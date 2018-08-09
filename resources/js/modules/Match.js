@@ -19,7 +19,8 @@ export default class Match {
         search_list: [],
         match: null,
         show: [false, false, false, false],
-        isUpdate: false
+        isUpdate: false,
+        end: false
       },
 
       //jsonからデータを引っ張ってきてsearch_listに格納
@@ -35,15 +36,16 @@ export default class Match {
         if (!this.isUpdate) {
           const daysList = this.$refs.days;
           const today = new Date();
-          const todayDate =
-            String(today.getFullYear()) +
-            String(('0' + (today.getMonth() + 1)).slice(-2)) +
-            String(('0' + today.getDate()).slice(-2));
+          const todayDate = String(today.getFullYear()) + String(('0' + (today.getMonth() + 1)).slice(-2)) + String(('0' + today.getDate()).slice(-2));
+          const time = String(('0' + today.getHours()).slice(-2)) + String(('0' + today.getMinutes()).slice(-2));
+
           daysList.forEach((element, index) => {
             const day = element.innerText;
             if (day < todayDate) {
-              console.log(index);
               this.show.splice(index, 1, true);
+              if (time > 1200) {
+                this.end = true;
+              }
             }
           });
         }

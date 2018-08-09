@@ -29,7 +29,8 @@
                     </div>
                 </div>
                 <p class="match__info__link" v-show="show[index]">
-                    <a href="#">詳細をみる</a>
+                    <a href="#" v-if="end">試合結果</a>
+                    <a href="#" v-else="end">詳細をみる</a>
                 </p>
             </li>
         </ul>
